@@ -1,0 +1,14 @@
+/Users/ionelpal/Desktop/CordovaTest/CordovaTest/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/ionelpal/Desktop/CordovaTest/CordovaTest/bin/Debug/CordovaTest.dll.mdb
+/Users/ionelpal/Desktop/CordovaTest/CordovaTest/bin/Debug/CordovaTest.dll
+/Users/ionelpal/Desktop/CordovaTest/CordovaTest/obj/Debug/CordovaTest.dll
+/Users/ionelpal/Desktop/CordovaTest/CordovaTest/obj/Debug/CordovaTest.dll.mdb
+/Users/ionelpal/Desktop/CordovaTest/CordovaTest/bin/Debug/nunit.framework.dll
+/Users/ionelpal/Desktop/CordovaTest/CordovaTest/bin/Debug/Xamarin.UITest.dll
+/Users/ionelpal/Desktop/CORDOVA/CordovaTest/CordovaTest/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/ionelpal/Desktop/CORDOVA/CordovaTest/CordovaTest/bin/Debug/CordovaTest.dll.mdb
+/Users/ionelpal/Desktop/CORDOVA/CordovaTest/CordovaTest/bin/Debug/CordovaTest.dll
+/Users/ionelpal/Desktop/CORDOVA/CordovaTest/CordovaTest/obj/Debug/CordovaTest.dll
+/Users/ionelpal/Desktop/CORDOVA/CordovaTest/CordovaTest/obj/Debug/CordovaTest.dll.mdb
+/Users/ionelpal/Desktop/CORDOVA/CordovaTest/CordovaTest/bin/Debug/nunit.framework.dll
+/Users/ionelpal/Desktop/CORDOVA/CordovaTest/CordovaTest/bin/Debug/Xamarin.UITest.dll

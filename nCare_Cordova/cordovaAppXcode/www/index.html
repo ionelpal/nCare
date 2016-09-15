@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://accounts.google.com https://ncazuremobile.azurewebsites.net; style-src 'self'; media-src *">
+        <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+        <link href="css/jquery.mobile.theme-1.4.5.min.css" rel="stylesheet" />
+        <link href="css/myCSS.css" rel="stylesheet" />
+        <title>NCARECordova</title>
+    </head>
+<body>
+
+    <div data-role="page" id="loginpage" class="ui-page">
+
+        <div data-role="header">
+            <div data-role="header">
+                <h3>nCare</h3>
+            </div>
+        </div>
+        <div data-role="content">
+
+            <h2> Welcome to nCare!</h2>
+            <p>Please optain your Loging details from your related Nursing Home!</p>
+        </div><div>
+            <button class="bt" id="loginbtn">Login</button>
+            <a href="#messagespage" style="display:none" id="log"></a>
+            <ul id='errorlog'></ul>
+        </div>
+    </div>
+    <div data-role="page" id="messagespage" class="ui-page">
+        <div data-role="header">
+            <h3>nCare</h3>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#messagespage" class="ui-btn-active ui-state-persist">Messages</a></li>
+                    <li><a href="#eventspage">Events</a></li>
+                    <li><a href="#directionspage">Directions</a></li>
+                    <li><a href="#logoutpage">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <fieldset class="ui-grid-a">
+                <div class="ui-block-a">
+                    <h3 data-inline="true">Latest Messages</h3>
+                </div>
+                <div class="ui-block-b ">
+                    <a href="#" data-role="button" data-inline="true" class="floatright fresh" id="refresh">Refresh</a>
+                </div>
+            </fieldset>
+        </div>
+       
+        <div data-role="content">
+
+            <div id="loading" class="loading">
+                <img src="images/loading.gif" alt="loaging" width="35px;" />
+            </div>
+
+
+            <ul data-role="listview" id="mesg_out"></ul>
+            <p id='errorlog'></p>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="mesgdetails" class="ui-page">
+        <div data-theme="a" data-role="header">
+            <h3>Details</h3>
+        </div>
+
+        <div data-role="content">
+            <fieldset class="ui-grid-a">
+                <div class="ui-block-a">
+                    <h3>Details</h3>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#messagespage" data-role="button" data-inline="true" class="floatright fresh">Return</a>
+                </div>
+
+            </fieldset>
+            <div data-role="content">
+                <ul data-role="listview" id="details-data" data-theme="a"></ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="eventspage" class="ui-page">
+        <div data-role="header">
+            <h3>nCare</h3>
+            <div data-role="navbar">
+                <ul>
+                        <li><a href="#messagespage">Messages</a></li>
+                        <li><a href="#eventspage" class="ui-btn-active ui-state-persist">Events</a></li>
+                        <li><a href="#directionspage">Directions</a></li>
+                        <li><a href="#logoutpage">Logout</a></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div>
+
+            <fieldset class="ui-grid-a">
+                <div class="ui-block-a">
+                    <h3 data-inline="true">Latest Events!</h3>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#" data-role="button" id="ev_refresh" data-inline="true" class="floatright fresh">Refresh</a>
+                </div>
+            </fieldset>
+        </div>
+        <div data-role="content" >
+
+            <div id="eventloading" class="loading">
+                <img src="images/loading.gif" alt="loaging" width="35px;" />
+            </div>
+            <ul data-role="listview" id="events_out"></ul>
+            <p id='errorlog'></p>
+
+        </div>
+    </div>
+
+    <div data-role="page" id="eventdetails" class="ui-page">
+        <div data-theme="a" data-role="header">
+            <h3>Details</h3>
+        </div>
+
+        <div data-role="content">
+            <fieldset class="ui-grid-a">
+                <div class="ui-block-a">
+                    <h3>Details</h3>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#eventspage" data-role="button" class="floatright fresh" data-theme="a">Return</a>
+                </div>
+
+            </fieldset>
+            <div data-role="content">
+                <ul data-role="listview" id="evnt-detail" data-theme="a"></ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="directionspage" class="ui-page">
+        <div data-role="header">
+            <h3>nCare</h3>
+            <div data-role="navbar">
+                <ul>
+                        <li><a href="#messagespage">Messages</a></li>
+                        <li><a href="#eventspage">Events</a></li>
+                        <li><a href="#directionspage" class="ui-btn-active ui-state-persist">Directions</a></li>
+                        <li><a href="#logoutpage">Logout</a></li>
+                    </ul>
+            </div>
+        </div>
+
+
+        <div data-role="content">
+
+            <div id="loc_loading" class="loading ui-page ui-page">
+                <img src="images/loading.gif" alt="loaging" width="35px;" />
+            </div>
+            <div id="map"></div>
+            <div>
+                <a href="#" data-role="button" class="btdir" id="lnav" alt="">Navigate</a>
+            </div>
+
+
+            <p id='errorlog'></p>
+        </div>
+    </div>
+
+
+
+
+    <div data-role="page" id="logoutpage">
+        <div data-role="header">
+            <h3>nCare</h3>
+            <div data-role="navbar">
+                <ul>
+                        <li><a href="#messagespage">Messages</a></li>
+                        <li><a href="#eventspage">Events</a></li>
+                        <li><a href="#directionspage">Directions</a></li>
+                        <li><a href="#logoutpage" class="ui-btn-active ui-state-persist">Logout</a></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div>
+
+            <a href="#loginpage" class="lout" data-role="button" id="logoutbtn">Logout</a>
+
+            <ul id='errorlog'></ul>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="scripts/jquery-2.2.4.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+
+
+
+</body>
+</html>
+
+

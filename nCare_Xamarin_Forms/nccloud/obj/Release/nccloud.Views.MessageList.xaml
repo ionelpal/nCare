@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="nccloud.Views.MessageList" Title="Messages"
+             	NavigationPage.HasBackButton="False" >
+  
+  
+  <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" Padding="10">
+   
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+          </Grid.ColumnDefinitions>
+
+          <Label Text="Latest Messages!" FontSize="Medium" TextColor="Olive" HorizontalOptions="StartAndExpand"  VerticalOptions="Center" Grid.Row="0" Grid.Column="0"/>
+          <Button Text="Refresh" FontSize="Small" TextColor="Red" HorizontalOptions="End" Clicked="OnRefreshing" VerticalOptions="Center" Grid.Row="0" Grid.Column="1"/>
+          </Grid>
+        <ListView x:Name="mesgList"
+            SeparatorVisibility="None"
+            IsPullToRefreshEnabled="False"
+            Refreshing="OnRefreshing"
+                  ItemTapped="OnItemTapped"
+                  ItemSelected="OnItemSelected">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+           
+              <TextCell Text="{Binding Title}" Detail="{Binding UpdatedAt }"  >
+                <!--		
+       			<Grid>
+       				<Grid.ColumnDefinitions>
+       				 <ColumnDefinition Width="100"/>
+					 <ColumnDefinition Width="Auto" />
+					</Grid.ColumnDefinitions>		
+							
+						  <StackLayout  Grid.Column="0">
+								
+						<Label Text="{Binding UpdatedAt}" TextColor="#f35e20" FontSize="Small" />
+							
+						</StackLayout>
+				</Grid>
+						
+						<ViewCell.ContextActions>
+					<MenuItem Text="Delete" Clicked="OnDelete" IsDestructive="true" />	
+							</ViewCell.ContextActions>   -->
+              </TextCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+ 
+</ContentPage>

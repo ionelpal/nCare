@@ -1,0 +1,162 @@
+{
+    "com.bez4pieci.cookies": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/com.bez4pieci.cookies"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.simpleProdInc.calabashiOS": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/com.simpleProdInc.calabashiOS"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-battery-status": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-battery-status"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-compat"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-console": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-console"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device-motion": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-device-motion"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device-orientation": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-device-orientation"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-dialogs"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-directions": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-directions"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-geolocation"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-hockeyapp": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-hockeyapp"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-inappbrowser"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-ms-adal": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-ms-adal"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-ms-azure-mobile-apps": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-ms-azure-mobile-apps"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-splashscreen"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-plugin-whitelist"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-sqlite-storage": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/cordova-sqlite-storage"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.plugin.cache": {
+        "source": {
+            "type": "local",
+            "path": "remote/plugins/org.apache.cordova.plugin.cache"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-vs-taco-support": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-vs-taco-support"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

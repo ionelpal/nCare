@@ -1,0 +1,119 @@
+﻿/*.myButton{
+    width:40px;
+    height:30px;
+    color:white;
+    background-color:blue !important;
+}*/
+.loading{
+text-align: center;
+  margin-left:0 auto;
+  margin-right:0 auto;
+
+}
+
+a:link {
+    text-decoration: none;
+    font-size:12px;
+    font-weight:100;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.fresh{
+    background-color:lightgray;
+    color: coral !important;
+    font-size:14px;
+    margin-right:10px!important;
+   margin-top:10px!important;
+   font-weight:bold;
+    /*width:45px;
+    height:20px;
+    text-align:center;*/
+}
+.floatleft {
+    float:left;
+ }
+.floatright {
+    float:right !important;
+ }
+h3{
+    color:olive;
+    font-weight:normal!important;
+    margin-left:10px;
+}
+h2{
+    color:#0097A7;
+    font-weight:normal!important;
+    text-align:center;
+}
+
+.bt{
+    background-color:#0097A7!important;
+    width:70% !important;
+    /*width:100px!important;
+    height:40px!important;*/
+    color:white!important;
+    font-family:sans-serif,Arial;
+    font-weight:normal !important;
+  position: absolute;
+   top: 50%; 
+   margin-left:15%;
+    
+}
+.lout{
+
+background-color:red!important;
+  max-width: 240px; 
+    color:white!important;
+   
+    font-weight:normal !important;
+    margin-top:150px;
+    margin-left:15%;
+    font-size:16px;
+  font-weight:normal!important;
+}
+
+.btlout{
+    background-color:#0097A7!important;
+    max-width: 240px; 
+    color:white!important;
+    font-weight:normal !important;
+    font-size:14px;
+  position: absolute;
+   top: 30%; 
+   margin-left:11%;
+ font-weight:bold;   
+}
+ul li a  {
+    font-weight:normal!important;
+    font-size:14px;
+}
+
+
+
+.btdir{
+ background-color:#0097A7!important;
+    max-width: 240px; 
+    color:white!important;
+    font-weight:normal !important;
+    font-size:16px;
+  position: relative;
+   margin-top: 30%; 
+   margin-left:10%;
+   height:auto;
+
+}
+
+.ui-listview {
+    margin: 20px !important;
+}

@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="CordovaTest.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppInitializer.cs">
+    <Files>
+      <File FileName="Tests.cs" Line="11" Column="14" />
+      <File FileName="AppInitializer.cs" Line="44" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CordovaTest" expanded="True" selected="True">
+            <Node name="CordovaTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CordovaTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

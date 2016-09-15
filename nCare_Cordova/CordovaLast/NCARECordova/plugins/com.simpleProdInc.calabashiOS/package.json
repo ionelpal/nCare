@@ -1,0 +1,34 @@
+{
+  "name": "Calabash-iOS",
+  "version": "1.0.0",
+  "description": "Cordova plugin for adding Calabash iOS to your app",
+  "cordova": {
+    "id": "com.simpleProdInc.calabashiOS",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://paulpatarinski@github.com/paulpatarinski/Cordova-Calabash-iOS-Plugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "calabash",
+    "iOS",
+    "calabash iOS"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "author": "Paul Patarinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulpatarinski/Cordova-Calabash-iOS-Plugin/issues"
+  },
+  "homepage": "https://github.com/paulpatarinski/Cordova-Calabash-iOS-Plugin#readme"
+}

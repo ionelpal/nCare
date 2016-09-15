@@ -1,0 +1,11 @@
+﻿<Properties StartupItem="Droid/ncare.Droid.csproj">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.nccloud.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.d610e84bc33ddc19f8c4d6495f926a67141441c0" />
+  <MonoDevelop.Ide.ItemProperties.nCareTEST PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ncare.Droid PreferredExecutionTarget="Android.393ad85c" />
+</Properties>

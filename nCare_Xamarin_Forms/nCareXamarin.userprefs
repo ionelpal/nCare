@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{5FA0219F-B063-4D07-800B-CC38BDB5B916}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="nCareTEST/Tests.cs">
+    <Files>
+      <File FileName="nCareTEST/Tests.cs" Line="15" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="nCareXamarin" expanded="True">
+            <Node name="nCare.Droid" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="layout" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.nCare.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.nccloud.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.892e51eb9a51b2c1cdfbee7c29801e224d5f2a65" />
+  <MonoDevelop.Ide.ItemProperties.nCareTEST PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ncare.Droid PreferredExecutionTarget="Android.393ad85c" />
+  <MonoDevelop.Ide.ItemProperties.nCare.Droid PreferredExecutionTarget="Android.393ad85c" />
+</Properties>

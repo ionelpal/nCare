@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="nccloud.Details"
+		Title="Details"
+             NavigationPage.HasBackButton="False" >
+
+  <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" Padding="10">
+
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+        <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+
+      <Label Text="Details"  FontSize="Medium" TextColor="Olive" FontAttributes="Italic" HorizontalOptions="StartAndExpand"   VerticalOptions="Center" Grid.Row="0" Grid.Column="0"/>
+      <Button x:Name="dismissButton" Text="Return"  FontSize="Small" TextColor="Red" Clicked="OnDismissButtonClicked" HorizontalOptions="End" VerticalOptions="Center" Grid.Row="0" Grid.Column="1"/>
+    </Grid>
+    
+    
+		<Label x:Name="details" Text="{Binding Details}" FontSize="Medium"  />
+		<Label Text="Updates by," FontAttributes="Italic"  TextColor="Olive" FontSize="Medium" />
+		<Label x:Name="writtenBy" Text="{Binding WrittenBy}" TextColor="Olive" FontSize="Medium" />
+
+   
+	</StackLayout>
+
+</ContentPage>

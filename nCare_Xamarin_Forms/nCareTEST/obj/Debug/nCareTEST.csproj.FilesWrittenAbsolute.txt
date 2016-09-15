@@ -1,0 +1,8 @@
+/Users/ionelpal/Desktop/nCareForms/nCareTEST/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/ionelpal/Desktop/nCareForms/nCareTEST/bin/Debug/nCareTEST.dll.mdb
+/Users/ionelpal/Desktop/nCareForms/nCareTEST/bin/Debug/nCareTEST.dll
+/Users/ionelpal/Desktop/nCareForms/nCareTEST/obj/Debug/nCareTEST.dll
+/Users/ionelpal/Desktop/nCareForms/nCareTEST/obj/Debug/nCareTEST.dll.mdb
+/Users/ionelpal/Desktop/nCareForms/nCareTEST/bin/Debug/nunit.framework.dll
+/Users/ionelpal/Desktop/nCareForms/nCareTEST/bin/Debug/Xamarin.UITest.dll
+/Users/ionelpal/Desktop/nCareForms/nCareTEST/bin/Debug/nCareTEST.dll.config
